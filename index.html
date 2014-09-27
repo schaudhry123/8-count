@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <title>8-Count</title>
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="js/jquery.classyloader.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="page-header">
+                <h1>8-Count
+                    <small>Concussion-detecting Mouthguard</small>
+                </h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-offset-1">
+                    <canvas class="loader"></canvas>
+                    <script>
+                        $(document).ready(function() {
+                            $('.loader').ClassyLoader({
+                                percentage: 35,
+                                speed: 20,
+                                width: 300,
+                                fontSize: '50px',
+                                diameter: 80,
+                                lineColor: 'rgba(0,204,0,0.7)',
+                                remainingLineColor: 'rgba(200,200,200,0.8)',
+                                lineWidth: 15
+
+                                            
+                                                    //lineColor: 'rgba(155,155,155,1)',
+                            });
+                        });
+                    </script>
+                </div>
+                <br />
+            </div>
+            <div class="row">
+                <div class="col-md-offset-2">
+                    <a href="sb-admin-2/index.html" class="btn btn-primary">Dashboard</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            
+        </div>
+        
+        <div class="container">
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="width: 2%;">2%</div>
+            </div>
+        </div>
+
+<!--        <script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-30825160-1', 'class.pm');
+            ga('send', 'pageview');
+        </script>   -->
+    </body>
+</html>
